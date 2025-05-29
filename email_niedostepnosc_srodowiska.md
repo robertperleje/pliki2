@@ -9,21 +9,21 @@ O zakończeniu prac poinformujemy Państwa w osobnym mailu.
 Poniższe systemy, które integrują się z Platformą BOS, mogą mieć ograniczoną funkcjonalność:
 
 ```
-| Aplikacja / Operacje                | Występujące ograniczenia funkcjonalne                                                                                                                                                                                     |
-|:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CBK                                 | Zostanie wstrzymany zapis danych osobowych w związku z wyłączeniem kanału  CBK_SAVE_PERSON w ESB                                                                                                                          |
-| Egida                               | Zostanie wstrzymane przekazywanie notyfikacji o dokumentach dodanych do Egidy  z BOS.Polisy, BOS.Roszczenia i BOS.Szkody. (Wyłączony zostanie kanał BOS_EPO_DOCUMENT_STORED, EHZ_BOS_ORO_SWIAD_DOCUMENT_STORED w ESB)     |
-| FSCD                                | Zostanie wstrzymany dostęp do danych pośredników z BOS Sieć Sprzedaży w związku z wyłączeniem kanału QUERY_SALES_NETWORK_IN w CBK                                                                                         |
-| iMonitor                            | Brak prezentacji przypisu on-line w związku z wyłączeniem kanału IPEGAZ_GET_POLICY w ESB                                                                                                                                  |
-| iPegaz                              | Zostanie wstrzymane pobieranie polis z iPegaza w związku z wyłączeniem kanałów IPEGAZ_GET_POLICY i IPEGAZ_GET_POLICY_FOR_BOS  w ESB                                                                                       |
-| Nemezis EHM                         | W Nemezis niedostępne będą funkcjonalności: wyszukanie szkód pochodzących z BOS.Szkody, szkody łączne oraz synchronizacja sublimitów. (Wyłączony zostanie kanał CBK_SAVE_PERSON w ESB.)                                   |
-| SLS                                 | Brak lub ograniczona możliwość obsługi szkód pochodzących z BOS.Szkody (wszystkie procesy). Brak lub ograniczona możliwość obsługi decyzji, dotyczących szkód pochodzących z Nemezis EHM, łącznych do szkód w BOS.Szkody. |
-| SOA                                 | Zostaną wstrzymane usługi  pobierania danych z Partenonu w związku w wyłączeniem kanałów PARTENON_SERVICES_FOR_SOA, PARTENON_SERVICES_FOR_SOA_2, OARTENON_SERVICES_FOR_SOA_3 w ESB                                        |
-| SOK                                 | Zostaną wstrzymane usługi  pobierania danych z Partenonu w związku w wyłączeniem kanałów PARTENON_SERVICES_FOR_SOK, PARTENON_SERVICES_FOR_SOK_3 w ESB                                                                     |
-| iRoszczenia                         | W związku z niedostępnością repozytorium polis, brak możliwości rejestracji roszczenia do polisy. Możliwa rejestracja roszczeń bez polisy.                                                                                |
-| iSzkody                             | W związku z niedostępnością repozytorium polis, brak możliwości rejestracji szkody do polisy. Możliwa rejestracja szkód bez polisy.                                                                                       |
-| Import polis i operacje na polisach | Zostanie wstrzymane pobieranie polis do repozytorium polis, w związku z wyłączeniem kanałów eksportu/importu polis na ESB i Kafce. Operacje wykonywane na polisie uwzględnione zostaną po zakończeniu przerwy.            |
-| Salesnetwork                        | Zostanie wstrzymany zapis danych osobowych w związku z ograniczoną funkcjonalnością komponentu Biznes Partner i CBK.                                                                                                    |
-| MLS                                 | Brak rejestracji automatycznych decyzji z MLS w SLS. Zlecenia z decyzją zamknięte w tym czasie w MLS nie zostaną automatycznie zarejestrowane w SLS i wymagać będą manualnej obsługi przez opiekuna szkody                |
-| CRM                                 | Eksport polis do BOS zakończy się odrzuceniem polisy. Konieczne będzie ręczne ponowienie polisy przez administratorów CRM. Eksport możliwy będzie po zakończeniu przerwy serwisowej.                                      |
+| Aplikacja / Operacje   | Występujące ograniczenia funkcjonalne                                 |
+|------------------------|------------------------------------------------------------------------|
+| CBK                   | Zostanie wstrzymany zapis danych osobowych...                          |
+| Egida                 | Zostanie wstrzymane przekazywanie notyfikacji...                       |
+| FSCD                  | Zostanie wstrzymany dostęp do danych pośredników...                    |
+| iMonitor              | Brak prezentacji przypisu on-line...                                   |
+| iPegaz                | Zostanie wstrzymane pobieranie polis...                                |
+| Nemezis EHM           | W Nemezis niedostępne będą funkcjonalności...                          |
+| SLS                   | Brak lub ograniczona możliwość obsługi szkód...                        |
+| SOA                   | Zostaną wstrzymane usługi pobierania danych z Partenonu...             |
+| SOK                   | Zostaną wstrzymane usługi pobierania danych z Partenonu...             |
+| iRoszczenia           | Brak możliwości rejestracji roszczenia do polisy...                    |
+| iSzkody               | Brak możliwości rejestracji szkody do polisy...                        |
+| Import polis...       | Zostanie wstrzymane pobieranie polis do repozytorium...                |
+| Salesnetwork          | Zostanie wstrzymany zapis danych osobowych...                          |
+| MLS                   | Brak rejestracji automatycznych decyzji...                             |
+| CRM                   | Eksport polis do BOS zakończy się odrzuceniem polisy...                |
 ```
