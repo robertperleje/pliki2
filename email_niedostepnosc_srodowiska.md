@@ -1,6 +1,6 @@
 Szanowni Państwo,
 
-informujemy, że dziś 24.04.2025 w godzinach 22:00 – 23:30 nastąpi przerwa techniczna w pracy środowiska produkcyjnego BOS (BOS PROD) .
+informujemy, że dziś ${DATA} w godzinach ${GODZINA} nastąpi przerwa techniczna w pracy środowiska produkcyjnego BOS (BOS PROD) .
 
 Powód niedostępności: prace wdrożeniowe w obszarze BOS.Szkody, BOS.Roszczenia, BOS.Sieć Sprzedaży
 
