@@ -1,3 +1,14 @@
+Szanowni Państwo,
+
+informujemy, że dziś 24.04.2025 w godzinach 22:00 – 23:30 nastąpi przerwa techniczna w pracy środowiska produkcyjnego BOS (BOS PROD) .
+
+Powód niedostępności: prace wdrożeniowe w obszarze BOS.Szkody, BOS.Roszczenia, BOS.Sieć Sprzedaży
+
+O zakończeniu prac poinformujemy Państwa w osobnym mailu.
+
+Poniższe systemy, które integrują się z Platformą BOS, mogą mieć ograniczoną funkcjonalność:
+
+
 | Aplikacja / Operacje                | Występujące ograniczenia funkcjonalne                                                                                                                                                                                     |
 |:------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CBK                                 | Zostanie wstrzymany zapis danych osobowych w związku z wyłączeniem kanału  CBK_SAVE_PERSON w ESB                                                                                                                          |
