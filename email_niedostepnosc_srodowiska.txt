@@ -1,8 +1,12 @@
 Szanowni Państwo,
 
-informujemy o zakończeniu przerwy technicznej. Środowisko produkcyjne BOS (BOS PROD) jest już dostępne.
+informujemy, że dziś 24.04.2025 w godzinach 22:00 – 23:30 nastąpi przerwa techniczna w pracy środowiska produkcyjnego BOS (BOS PROD) .
 
-Poniższe systemy, które integrują się z Platformą BOS, powinny funkcjonować poprawnie:
+Powód niedostępności: prace wdrożeniowe w obszarze BOS.Szkody, BOS.Roszczenia, BOS.Sieć Sprzedaży
+
+O zakończeniu prac poinformujemy Państwa w osobnym mailu.
+
+Poniższe systemy, które integrują się z Platformą BOS, mogą mieć ograniczoną funkcjonalność:
 
 Aplikacja / Operacje	Występujące ograniczenia funkcjonalne
 CBK   	Zostanie wstrzymany zapis danych osobowych w związku z wyłączeniem kanału  CBK_SAVE_PERSON w ESB                                       
@@ -20,11 +24,10 @@ Import polis i operacje na polisach	Zostanie wstrzymane pobieranie polis do repo
 Salesnetwork	Zostanie wstrzymany zapis danych osobowych w związku z ograniczoną funkcjonalnością komponentu Biznes Partner i CBK.
 MLS	Brak rejestracji automatycznych decyzji z MLS w SLS. Zlecenia z decyzją zamknięte w tym czasie w MLS nie zostaną automatycznie zarejestrowane w SLS i wymagać będą manualnej obsługi przez opiekuna szkody
 CRM	Eksport polis do BOS zakończy się odrzuceniem polisy. Konieczne będzie ręczne ponowienie polisy przez administratorów CRM. Eksport możliwy będzie po zakończeniu przerwy serwisowej.
-
+ 
 Prosimy nie odpowiadać na tę wiadomość. 
 W przypadku potrzeby zgłoszenia sprawy prosimy o skorzystanie z Centrum Samoobsługowego – dostępne są w nim formularze zgłoszeń, baza rozwiązań najczęstszych problemów oraz możliwość śledzenia postępu w zgłoszeniach.
 
 Service Desk ET&S
-
 UWAGA: Powyższa wiadomość oraz załączone do niej pliki mają charakter poufny i mogą stanowić tajemnicę przedsiębiorstwa. Wszelkie rozpowszechnianie, ujawnianie, kopiowanie i wykorzystywanie jakichkolwiek informacji zawartych w korespondencji bez zgody nadawcy jest zabronione. Jeżeli nie jesteście Państwo właściwym adresatem wiadomości (np. korespondencja została skierowana do Was omyłkowo), prosimy o natychmiastowe powiadomienie o tym fakcie nadawcy oraz trwałe usunięcie wiadomości wraz z załącznikami ze wszystkich swoich systemów i nośników danych.
 NOTE: The above message and the files attached to it are confidential and may constitute a trade secret. Any distribution, disclosure, copying and use of any information contained in the correspondence without the consent of the sender is prohibited. If you are not the correct addressee of the message (e.g. the correspondence was sent to you by mistake), please notify the sender of this fact immediately and delete the message with attachments from all your systems and data carriers.
