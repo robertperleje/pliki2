@@ -23,7 +23,7 @@ Poniższe systemy, które integrują się z Platformą BOS, mogą mieć ogranicz
 | iRoszczenia                         | W związku z niedostępnością repozytorium polis, brak możliwości rejestracji roszczenia do polisy. Możliwa rejestracja roszczeń bez polisy.                                                                                |
 | iSzkody                             | W związku z niedostępnością repozytorium polis, brak możliwości rejestracji szkody do polisy. Możliwa rejestracja szkód bez polisy.                                                                                       |
 | Import polis i operacje na polisach | Zostanie wstrzymane pobieranie polis do repozytorium polis, w związku z wyłączeniem kanałów eksportu/importu polis na ESB i Kafce. Operacje wykonywane na polisie uwzględnione zostaną po zakończeniu przerwy.            |
-| Salesnetwork                        | Zostanie wstrzymany zapis danych osobowych w związku z ograniczoną funkcjonalnością komponentu Biznes Partner i CBK.
-```                                                                                                      |
+| Salesnetwork                        | Zostanie wstrzymany zapis danych osobowych w związku z ograniczoną funkcjonalnością komponentu Biznes Partner i CBK.                                                                                                    |
 | MLS                                 | Brak rejestracji automatycznych decyzji z MLS w SLS. Zlecenia z decyzją zamknięte w tym czasie w MLS nie zostaną automatycznie zarejestrowane w SLS i wymagać będą manualnej obsługi przez opiekuna szkody                |
 | CRM                                 | Eksport polis do BOS zakończy się odrzuceniem polisy. Konieczne będzie ręczne ponowienie polisy przez administratorów CRM. Eksport możliwy będzie po zakończeniu przerwy serwisowej.                                      |
+```
